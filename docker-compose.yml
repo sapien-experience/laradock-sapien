@@ -1815,7 +1815,6 @@ services:
 
 
   ### localstack ##############################################
-
   localstack:
     container_name: "${LOCALSTACK_DOCKER_NAME-localstack_main}"
     image: localstack/localstack-full
